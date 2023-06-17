@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #cd0300;
+  --secondary-color: yellow;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 86px;
+}
+p {
+  font-size: 28px;
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-bottom: 0;
+}
+footer a {
+  margin: 0 20px;
+  color: #feefc2;
+  font-size: 20px;
+}
+.emoji {
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 200px;
+}
+.photo-heading {
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.croissant-photo {
+  width: 900px;
+  height: 580px;
+}
+.email {
+  color: yellow;
+}
