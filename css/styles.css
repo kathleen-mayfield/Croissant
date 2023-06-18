@@ -20,7 +20,7 @@ p {
 footer a {
   margin: 0 20px;
   color: #feefc2;
-  font-size: 20px;
+  font-size: 18px;
 }
 .emoji {
   padding-bottom: 10px;
@@ -32,10 +32,35 @@ footer a {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.croissant-photo {
+img {
   width: 900px;
   height: 580px;
 }
 .email {
   color: yellow;
+}
+@media (max-width: 912px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 72px;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 0;
+  }
+  .emoji {
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 100px;
+  }
+  footer {
+    margin-top: 20px;
+  }
 }
