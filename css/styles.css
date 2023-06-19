@@ -37,7 +37,7 @@ img {
   height: 580px;
 }
 .email {
-  color: yellow;
+  color: black;
 }
 @media (max-width: 912px) {
   img {
